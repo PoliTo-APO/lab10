@@ -137,9 +137,9 @@ def main():
     food.add_chef("Giacomo", "Frittata", ["Vitello tonnato"])
     food.add_chef("Pietro", "Vitello tonnato", ["Frittata"])
 
-    print(food.chef_recognition("Paolo"))
-    print(food.chef_recognition("Vittorio"))
-    print(food.chef_recognition("Luca"))
+    print(food.chef_recognition("Paolo"))           # ['Paolo', 'Simone', 'Antonio']
+    print(food.chef_recognition("Vittorio"))        # []
+    print(food.chef_recognition("Luca"))            # []
 
 
 if __name__ == "__main__":
